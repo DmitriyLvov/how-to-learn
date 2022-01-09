@@ -12,16 +12,15 @@
 <body>
   <div class="page">
     <header class="header">
-      <a class="logo logo_place_header" target="_blank" href="https://practicum.yandex.ru/">
-        <img width="183" height="32" src="./images/logo_place_header.svg" alt="Яндекс логотип">
+      <a target="_blank" href="https://practicum.yandex.ru/">
+        <img class="logo logo_place_header" src="./images/logo_place_header.svg" alt="Яндекс логотип">
       </a>
       <h1 class="header__title">Научиться учиться</h1>
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей жизни?
-        <a class="header__link" href="#"> Узнать &#8594;</a>
+        <a class="header__link" target="_blank" href="#"> Узнать &#8594;</a>
       </p>
-      <img class="header__main-illustration" width="765" height="608" src="./images/header-image.png"
-        alt="Картина 'Опять двойка'">
+      <img class="header__main-illustration" src="./images/header-image.png" alt="Картина 'Опять двойка'">
       <div class="header__square-pic"></div>
     </header>
 
@@ -50,7 +49,7 @@
 
       <section class="digits">
         <h2 class="section-title">Цифры и факты</h2>
-        <p class="section-subtitle section-subtitle-font">Про учёбу и мозг</p>
+        <p class="section-subtitle">Про учёбу и мозг</p>
         <ul class="table">
           <li class="table__cell">
             <h3 class="table__heading">86 миллиардов</h3>
@@ -94,10 +93,10 @@
       <section class="feynman">
         <h2 class="feynman__title">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть</p>
-        <a class="feynman__link" href="#">Подробнее &#8594;</a>
+        <a class="feynman__link" target="_blank" href="#">Подробнее &#8594;</a>
       </section>
 
-      <section class="kaufman font_color_white">
+      <section class="kaufman">
         <h2 class="section-title section-title_theme_dark">Принципы обучения</h2>
         <p class="section-subtitle section-subtitle_theme_dark">от Джоша Кауфмана</p>
         <ul class="table">
@@ -135,8 +134,7 @@
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">8</h3>
-            <p class="table__text">Создайте быстрые петли обратной связи.
-            </p>
+            <p class="table__text">Создайте быстрые петли обратной связи.</p>
           </li>
           <li class="table__cell table__cell_theme_dark">
             <h3 class="table__heading">9</h3>
@@ -153,38 +151,53 @@
       </section>
     </main>
 
-    <footer class="footer font_color_white">
+    <footer class="footer">
       <div class="footer__columns">
-        <div class="footer__column_content_copyright">
-          <a class="logo logo_place_footer" target="_blank" href="//practicum.yandex.ru/">
-            <img width="183" height="35" src="./images/logo_place_footer.svg" alt="Яндекс логотип">
+        <div class="footer__column footer__column_content_copyright">
+          <a class="logo__link" target="_blank" href="https://practicum.yandex.ru/">
+            <img class="logo logo_place_footer" src="./images/logo_place_footer.svg" alt="Яндекс логотип">
           </a>
           <p class="footer__author">&copy;2022. Львов Дмитрий</p>
         </div>
 
-        <div class="footer__column_content_info">
-          <p class="column__heading">О Практикуме</p>
-          <div class="column__links">
-            <a class="column__link" href="#">Главная</a>
-            <a class="column__link" href="#">Концепции</a>
-            <a class="column__link" href="#">Наставники</a>
-          </div>
-        </div>
+        <nav class="footer__column footer__column_content_info">
+          <h3 class="footer__column-heading">О Практикуме</h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" target="_blank" href="#">Главная</a>
+            </li>
+            <li>
+              <a class="footer__column-link" target="_blank" href="#">Концепции</a>
+            </li>
+            <li>
+              <a class="footer__column-link" target="_blank" href="#">Наставники</a>
+            </li>
+          </ul>
+        </nav>
 
-        <div class="footer__column_content_social">
-          <p class="column__heading">Соцсети</p>
-          <div class="column__links">
-            <a class="column__link" target="_blank" href="https://www.facebook.com">
-              <img width="16" height="16" src="./images/facebook_color_white.svg" alt="логотип Фейсбук">
-              Facebook</a>
-            <a class="column__link" target="_blank" href="https://www.vk.com">
-              <img width="16" height="16" src="./images/vk_color_white.svg" alt="логотип Вконтакте">
-              ВКонтакте</a>
-            <a class="column__link" target="_blank" href="https://www.instagram.com">
-              <img width="16" height="16" src="./images/instagram_color_white.svg" alt="логотип Инстаграм">
-              Instagram</a>
-          </div>
-        </div>
+        <nav class="footer__column footer__column_content_social">
+          <h3 class="footer__column-heading">Соцсети</h3>
+          <ul class="footer__column-links">
+            <li>
+              <a class="footer__column-link" target="_blank" href="https://www.facebook.com">
+                <img class="footer__social-icon" src="./images/facebook_color_white.svg" alt="логотип Фейсбук">
+                Facebook
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link" target="_blank" href="https://www.vk.com">
+                <img class="footer__social-icon" src="./images/vk_color_white.svg" alt="логотип Вконтакте">
+                ВКонтакте
+              </a>
+            </li>
+            <li>
+              <a class="footer__column-link" target="_blank" href="https://www.instagram.com">
+                <img class="footer__social-icon" src="./images/instagram_color_white.svg" alt="логотип Инстаграм">
+                Instagram
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
     </footer>
   </div>

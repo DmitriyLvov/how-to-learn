@@ -1,0 +1,10 @@
+.section-title {
+  max-width: 60%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 100px auto 20px auto;
+  text-align: center;
+  font: 700 60px/1.15 'Helvetica Neue', Arial, sans-serif;
+  z-index: 2;
+  position: relative;
+}

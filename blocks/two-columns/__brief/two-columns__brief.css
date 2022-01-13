@@ -1,0 +1,7 @@
+.two-columns__brief {
+  max-width: 175px;
+  font: 400 18px/1.2 'Helvetica Neue', Arial, sans-serif;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  color: #2f80ed;
+}

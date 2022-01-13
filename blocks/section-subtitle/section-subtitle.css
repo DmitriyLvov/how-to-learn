@@ -1,0 +1,10 @@
+.section-subtitle {
+  max-width: 60%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 auto;
+  text-align: center;
+  font: 400 24px/34px 'Helvetica Neue', Arial, sans-serif;
+  z-index: 2;
+  position: relative;
+}

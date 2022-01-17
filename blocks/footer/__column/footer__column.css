@@ -1,8 +1,7 @@
-@import url('../__column/_content_copyright/footer__column_content-copyright.css');
 .footer__column {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
-  min-height: 250px;
-  color: white;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 250px;
+    color: white;
 }

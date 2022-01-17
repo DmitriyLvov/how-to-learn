@@ -1,0 +1,6 @@
+.table__heading {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0 0 20px 0;
+  font: 700 24px/1.15 'Helvetica Neue', Arial, sans-serif;
+}

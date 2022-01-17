@@ -13,6 +13,5 @@
   }
 
   .header__link:hover {
-    /* animation: link-decoration 0.5s linear 0 infinite alternate; */
     animation: link-decoration 0.5s forwards;
   }

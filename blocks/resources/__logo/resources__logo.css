@@ -1,4 +1,17 @@
+@keyframes link-decoration {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
 .resources__logo {
   width: 270px;
   height: 38px;
+}
+
+.resources__logo:hover {
+  animation: link-decoration 0.5s forwards;
 }

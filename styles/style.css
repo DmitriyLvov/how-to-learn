@@ -9,21 +9,6 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
-.logo {
-  width: 183px;
-}
-
-.logo_place_header {
-  height: 32px;
-  position: absolute;
-  top: 30px;
-  left: 64px;
-}
-
-.logo_place_footer {
-  height: 35px;
-}
-
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 
